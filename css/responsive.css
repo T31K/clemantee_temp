@@ -236,9 +236,9 @@
 		border-left: 0;
 	}
 
-	body.menu-collapsed{
+	/* body.menu-collapsed{
 		overflow: hidden;
-	}
+	} */
 
 	.main-menu .navbar-collapse {
 		margin:0px -15px !important;
