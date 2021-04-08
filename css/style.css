@@ -175,6 +175,12 @@ figure{
 	margin-bottom: 0;
 }
 
+figure.team{
+	width: 60%;
+	margin: 0 auto;
+}
+
+
 .theme-btn{
 	display:inline-block;
 	-webkit-transition:all 0.3s ease;
@@ -208,7 +214,7 @@ figure{
 	font-weight: 400;
 	overflow: hidden;
 	border-radius: 50px;
-	background-color: #ffae00;
+	background-color: #e48257;
 }
 
 .btn-style-one:hover{
@@ -218,19 +224,19 @@ figure{
 }
 
 @keyframes rainbow{
-	0% { background-color: #ffae00; }
-    25% { background-color: #5798fe; }
-    50% { background-color: #7cbe47; }
-    75% { background-color: #9c49fa; }
-    100% { background-color: #ff4880; }
+	0% { background-color: #98ddca; }
+    25% { background-color: #d5ecc2; }
+    50% { background-color: #ffd3b4; }
+    75% { background-color: #ffaaa7; }
+    100% { background-color: #98ddca; }
 }
 
 @-webkit-keyframes rainbow{
-	0% { background-color: #ffae00; }
-    25% { background-color: #5798fe; }
-    50% { background-color: #7cbe47; }
-    75% { background-color: #9c49fa; }
-    100% { background-color: #ff4880; }
+	0% { background-color: #98ddca; }
+    25% { background-color: #d5ecc2; }
+    50% { background-color: #ffd3b4; }
+    75% { background-color: #ffaaa7; }
+    100% { background-color: #98ddca; }
 }
 
 /*Btn Style Two*/
@@ -245,7 +251,7 @@ figure{
 	font-weight: 400;
 	overflow: hidden;
 	border-radius: 50px;
-	background-color: #393d72;
+	background-color: #F07F46;
 }
 
 .btn-style-two:hover{
@@ -647,12 +653,12 @@ img{
 	display: block;
 	font-size: 16px;
 	line-height: 57px;
-	color: #ffffff;
+	color: #393232;
 	height: 57px;
 	width: 57px;
 	text-align: center;
 	border-radius: 50%;
-	background-color: #ffae00;
+	background-color: #f2edd7;
 	-webkit-transition: all 300ms ease;
 	-moz-transition: all 300ms ease;
 	-ms-transition: all 300ms ease;
@@ -661,11 +667,11 @@ img{
 }
 
 .social-icon-colored li:nth-child(3n + 2) a{
-	background-color: #ff4880;
+	background-color: #f2edd7;
 }
 
 .social-icon-colored li:nth-child(3n + 3) a{
-	background-color: #5798fe;
+	background-color: #f2edd7;
 }
 
 .social-icon-colored li a:hover{
@@ -1672,7 +1678,7 @@ img{
 	display: block;
 	font-size: 20px;
 	line-height: 1.2em;
-	color: #ff4880;
+	color: #393232;
 	font-weight: 400;
 	font-family: "Schoolbell", cursive;
 	margin-bottom: 10px;
@@ -1683,7 +1689,7 @@ img{
 	display: block;
 	font-size:60px;
 	line-height: 1.2em;
-	color: #393d72;
+	color: #3a6351;
 	font-weight: 400;
 	padding-bottom:25px;
 }
@@ -1695,7 +1701,6 @@ img{
 	bottom: 0;
 	height: 6px;
 	width: 58px;
-	background-image: url(../images/icons/line-2.png);
 	background-position: center;
 	animation: slide 10s linear infinite;
 	-webkit-animation: slide 10s linear infinite;
@@ -1731,7 +1736,6 @@ img{
 }
 
 .sec-title.light h2:before{
-	background-image: url(../images/icons/line-3.png);
 }
 
 /*** 
@@ -2736,7 +2740,7 @@ img{
 .program-section{
 	position: relative;
 	padding: 120px 0 120px;
-	background-color: #f9f5f0;
+	background-color: #3a6351;
 }
 
 .program-section.alternate{
@@ -3273,9 +3277,6 @@ img{
 	background-color: #393d72;
 }
 
-.coming-soon-section .sec-title h2:before{
-	background-image: url(../images/icons/line-4.png);
-}
 
 .coming-soon-section .content{
 	position: relative;
@@ -3734,7 +3735,7 @@ img{
 	position:relative;
 	float:left;
 	width:50%;
-	background-color:#393d72;
+	background-color:#3a6351;
 }
 
 .fluid-section-two .contact-column:before{
@@ -3750,9 +3751,6 @@ img{
 	opacity: .30;
 }
 
-.fluid-section-two .contact-column .sec-title h2:before{
-	background-image: url(../images/icons/line-2.png);
-}
 
 .fluid-section-two .contact-column .inner-column{
 	position:relative;
@@ -3786,7 +3784,7 @@ img{
     border: 1px solid transparent;
     background-color: #ffffff;
     font-weight: 500;
-    border-radius: 15px;
+    border-radius: 18px;
     height: 80px;
     -webkit-transition: all 300ms ease;
     -ms-transition: all 300ms ease;
@@ -3931,13 +3929,13 @@ img{
 	display: block;
 	font-size: 20px;
 	line-height: 1.2em;
-	color: #393d72;
+	color: #3a6351;
 	font-weight: 400;
 	margin-bottom: 3px;
 }
 
 .team-block .caption-box .name a{
-	color: #393d72;
+	color: #3a6351;
 	display: inline-block;
 	-webkit-transition: all 300ms ease;
 	-moz-transition: all 300ms ease;
@@ -3995,7 +3993,7 @@ img{
 .testimonial-block .content{
 	position: relative;
 	padding: 70px 80px;
-	background-color: #fa496e;
+	background-color: #f2edd7;
 	text-align: left;
 	border-radius: 20px;
 	margin-bottom: 30px;
@@ -4039,7 +4037,7 @@ img{
 	display: block;
 	font-size: 24px;
 	line-height: 40px;
-	color: #ffffff;
+	color: #393232;
 	font-weight: 400;
 }
 
@@ -4067,7 +4065,7 @@ img{
 	display: block;
 	width: 100%;
 }
-
+ 
 .testimonial-block .info-box .name{
 	position: relative;
 	display: block;
@@ -4086,7 +4084,7 @@ img{
 }
 
 .testimonial-block.style-two .content{
-	background-color: #5798fe;
+	background-color: #f2edd7;
 }
 
 .testimonial-block.style-two .content:after{
@@ -4140,7 +4138,7 @@ img{
 .call-to-action{
 	position: relative;
 	padding: 120px 0;
-	background-color: #ffae00;
+	background-color: #f2edd7;
 }
 
 .call-to-action:before{
@@ -4166,7 +4164,7 @@ img{
 	display: block;
 	font-size: 30px;
 	line-height: 1.2em;
-	color: #ffffff;
+	color: #393232;
 	font-weight: 400;
 	font-family: "Schoolbell", cursive;
 }
@@ -4176,7 +4174,7 @@ img{
 	display: inline-block;
 	font-size: 50px;
 	line-height: 1.2em;
-	color: #ffffff;
+	color: #3a6351;
 	font-weight: 400;
 	margin-bottom: 45px;
 }
@@ -4950,7 +4948,8 @@ img{
 
 .main-footer{
 	position:relative;
-	background-color: #393d72;
+	background-color: #3a6351;
+	padding: 2.5em;
 }
 
 .main-footer:before{
