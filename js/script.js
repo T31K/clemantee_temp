@@ -302,6 +302,55 @@
 		});
 	}
 
+	let tutor_arr = [ 
+		["imgsrc",
+		"Khye Mun stays true to his vision as an educator – ‘teaching music differently’ to provide the highest quality of music education. He focuses on creating memorable experiences which includes: service, communication, and environment.",
+		"Khye Mun graduated from UCSI University with a Bachelor in Contemporary Music. With a teaching experience of over 9 years, he is capable of handling students of any sort. Before making the decision to be a full time educator, Khye Mun was an active music producer.",
+		"Khye Mun is a busy man running day-to-day operation at Clemantee Music. However, don’t be afraid to approach him for any enquiries or just a friendly chat!"
+		],
+		["imgsrc",
+		"We have a saying here at Clemantee Music: “No one handles kids as well as Ying Yi does”. It is no surprise then, for a gentle and caring educator with over a decade of teaching experience to be able to do what she does.",
+		"Ying Yi holds a Bachelor’s Degree in Classical Music from UCSI University. On top of that, she is also a certified Musikgarten educator, responsible for kick starting the musical journey for students as young as 2 months old!",
+		"An educator full of joy and positivity, it is no wonder kids go home with a smile on their faces after every lesson."
+		],
+		["imgsrc",
+		"Hailing from Sabah, Frances is the lead vocalist for the all girl band, Crinkle Cut. Their latest album ‘Sweet Nothings’ redefines the sound of Malaysian indie music.",
+		"Yet another graduate of UCSI University in our team, Frances holds a Bachelor’s Degree in Contemporary Music, majoring in Vocals. Apart from teaching, she is an active session musician in the industry, fronting as a lead vocalist in the KL International Jazz Festival in 2013 being one of her notable performances.",
+		"Frances holds the record for ‘The Most Punctual Teacher’. She hopes to use her vast experiences in both teaching and performing to pass on the knowledge of singing and showmanship."
+		],
+		["imgsrc",
+		"The newest addition to the family, Rachel is a graduate from UPM with a Bachelor’s Degree in Contemporary Music. She hopes to inspire students to be a well-rounded pianist through her knowledge in both classical and contemporary piano.",
+		"Besides having 6 years of teaching experience, Rachel has been actively organising competitions and recitals for students, giving them an opportunity to perform.",
+		"With a cheerful and easy going personality, her classes are always enjoyable and effective at the same time. Need a friendly piece of advise or someone to lend an ear? Rachel is here!"
+		],
+	]
+		
+
+	$('#1_tutor').click(function() {
+		$('#tutor_text_1').text(tutor_arr[0][1])
+		$('#tutor_text_2').text(tutor_arr[0][2])
+		$('#tutor_text_3').text(tutor_arr[0][3])
+	})
+
+	$('#2_tutor').click(function() {
+		$('#tutor_text_1').text(tutor_arr[1][1])
+		$('#tutor_text_2').text(tutor_arr[1][2])
+		$('#tutor_text_3').text(tutor_arr[1][3])
+	})
+
+	$('#3_tutor').click(function() {
+		$('#tutor_text_1').text(tutor_arr[2][1])
+		$('#tutor_text_2').text(tutor_arr[2][2])
+		$('#tutor_text_3').text(tutor_arr[2][3])
+	})
+
+	$('#4_tutor').click(function() {
+		$('#tutor_text_1').text(tutor_arr[3][1])
+		$('#tutor_text_2').text(tutor_arr[3][2])
+		$('#tutor_text_3').text(tutor_arr[3][3])
+	})
+
+
 	//Contact Form Validation
 	if($('#contact-form').length){
 		$('#contact-form').validate({
