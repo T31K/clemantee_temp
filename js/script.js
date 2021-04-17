@@ -1,14 +1,14 @@
 (function($) {
-	
+
 	"use strict";
-	
+
 	//Hide Loading Box (Preloader)
 	function handlePreloader() {
 		if($('.preloader').length){
 			$('.preloader').delay(200).fadeOut(500);
 		}
 	}
-	
+
 	//Update Header Style and Scroll to Top
 	function headerStyle() {
 		if($('.main-header').length){
@@ -27,13 +27,13 @@
 			}
 		}
 	}
-	
+
 	headerStyle();
 
 	//Submenu Dropdown Toggle
 	if($('.main-header li.dropdown ul').length){
 		$('.main-header .navigation li.dropdown').append('<div class="dropdown-btn"><span class="fa fa-angle-down"></span></div>');
-		
+
 		//Dropdown Button
 		$('.main-header .navigation li.dropdown .dropdown-btn').on('click', function() {
 			$(this).prev('ul').slideToggle(500);
@@ -42,7 +42,7 @@
 
 	//Search Popup
 	if($('#search-popup').length){
-		
+
 		//Show Popup
 		$('.search-box-btn').on('click', function() {
 			$('#search-popup').addClass('popup-visible');
@@ -92,8 +92,8 @@
 		var scene = $('.parallax-scene-5').get(0);
 		var parallaxInstance = new Parallax(scene);
 	}
-	
-	
+
+
 	// Single Item Carousel
 	if ($('.single-item-carousel').length) {
 		$('.single-item-carousel').owlCarousel({
@@ -117,7 +117,7 @@
 					items:1
 				},
 			}
-		});    		
+		});
 	}
 
 	// Testimonials Carousel
@@ -198,7 +198,7 @@
 					items:5
 				}
 			}
-		});    		
+		});
 	}
 
 	// Services Carousel
@@ -221,7 +221,7 @@
 					items:3
 				}
 			}
-		});    		
+		});
 	}
 
     //Progress Bar
@@ -232,9 +232,9 @@
 			$(el).css('width',percent+'%');
 		},{accY: 0});
 	}
-	
+
 	//Event Countdown Timer
-	if($('.time-countdown').length){  
+	if($('.time-countdown').length){
 		$('.time-countdown').each(function() {
 		var $this = $(this), finalDate = $(this).data('countdown');
 		$this.countdown(finalDate, function(event) {
@@ -242,15 +242,15 @@
 		});
 	 });
 	}
-	
+
 	//Fact Counter + Text Count
 	if($('.count-box').length){
 		$('.count-box').appear(function(){
-	
+
 			var $t = $(this),
 				n = $t.find(".count-text").attr("data-stop"),
 				r = parseInt($t.find(".count-text").attr("data-speed"), 10);
-				
+
 			if (!$t.hasClass("counted")) {
 				$t.addClass("counted");
 				$({
@@ -268,7 +268,7 @@
 					}
 				});
 			}
-			
+
 		},{accY: 0});
 	}
 
@@ -288,7 +288,7 @@
 		$('.tabs-box .tab-buttons .tab-btn').on('click', function(e) {
 			e.preventDefault();
 			var target = $($(this).attr('data-tab'));
-			
+
 			if ($(target).is(':visible')){
 				return false;
 			}else{
@@ -301,7 +301,7 @@
 			}
 		});
 	}
-	
+
 	//Contact Form Validation
 	if($('#contact-form').length){
 		$('#contact-form').validate({
@@ -325,7 +325,7 @@
 			}
 		});
 	}
-	
+
 	// Scroll to a Specific Div
 	if($('.scroll-to-target').length){
 		$(".scroll-to-target").on('click', function() {
@@ -334,10 +334,10 @@
 		   $('html, body').animate({
 			   scrollTop: $(target).offset().top
 			 }, 1500);
-	
+
 		});
 	}
-	
+
 	// Elements Animation
 	if($('.wow').length){
 		var wow = new WOW(
@@ -352,21 +352,20 @@
 		wow.init();
 	}
 
-
 /* ==========================================================================
    When document is Scrollig, do
    ========================================================================== */
-	
+
 	$(window).on('scroll', function() {
 		headerStyle();
 	});
-	
+
 /* ==========================================================================
    When document is loading, do
    ========================================================================== */
-	
+
 	$(window).on('load', function() {
 		handlePreloader();
-	});	
+	});
 
 })(window.jQuery);

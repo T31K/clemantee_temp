@@ -1,0 +1,69 @@
+body {
+  font-size: 14px;
+  color: #787878;
+  line-height: 1.6em;
+  font-weight: 400;
+  background: var(--white);
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  font-family: 'Rubik', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover,
+a:focus,
+a:visited {
+  text-decoration: none;
+  outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  position: relative;
+  font-weight: normal;
+  margin: 0px;
+  background: none;
+  line-height: 1.2em;
+  color: var(--brandGreen);
+  font-family: 'Fredoka One', cursive;
+}
+
+.text-white{
+  color: var(--white) !important;
+}
+
+.text-lightGrey{
+  color: var(--lightGrey) !important;
+}
+
+.text-darkGrey{
+  color: var(--darkGrey) !important;
+}
+
+.text-black{
+  color: var(--black) !important;
+}
+
+.text-brandOrange{
+  color: var(--brandOrange) !important;
+}
+
+.text-brandGreen{
+  color: var(--brandGreen) !important;
+}
+
+.text-brandYellow{
+  color: var(--brandYellow) !important;
+}
+
+.text-brandBrown{
+  color: var(--brandBrown) !important;
+}
