@@ -323,6 +323,7 @@
 		"With a cheerful and easy going personality, her classes are always enjoyable and effective at the same time. Need a friendly piece of advise or someone to lend an ear? Rachel is here!"
 		],
 	]
+	
 	$('#1_tutor').click(function() {
 		$('#tutor_text_1').text(tutor_arr[0][1])
 		$('#tutor_text_2').text(tutor_arr[0][2])
