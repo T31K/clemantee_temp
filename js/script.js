@@ -1,13 +1,12 @@
-(function($) {
-
+(function ($) {
 	"use strict";
 
-	//Hide Loading Box (Preloader)
-	function handlePreloader() {
-		if($('.preloader').length){
-			$('.preloader').delay(200).fadeOut(500);
-		}
-	}
+  // Hide Loading Box (Preloader)
+  function handlePreloader() {
+    if ($('.preloader').length) {
+      $('.preloader').delay(200).fadeOut(500)
+    }
+  }
 
 	//Update Header Style and Scroll to Top
 	function headerStyle() {
@@ -324,8 +323,6 @@
 		"With a cheerful and easy going personality, her classes are always enjoyable and effective at the same time. Need a friendly piece of advise or someone to lend an ear? Rachel is here!"
 		],
 	]
-		
-
 	$('#1_tutor').click(function() {
 		$('#tutor_text_1').text(tutor_arr[0][1])
 		$('#tutor_text_2').text(tutor_arr[0][2])
@@ -339,12 +336,14 @@
 	})
 
 	$('#3_tutor').click(function() {
+		alert('hello')
 		$('#tutor_text_1').text(tutor_arr[2][1])
 		$('#tutor_text_2').text(tutor_arr[2][2])
 		$('#tutor_text_3').text(tutor_arr[2][3])
 	})
 
 	$('#4_tutor').click(function() {
+		alert('hello')
 		$('#tutor_text_1').text(tutor_arr[3][1])
 		$('#tutor_text_2').text(tutor_arr[3][2])
 		$('#tutor_text_3').text(tutor_arr[3][3])
