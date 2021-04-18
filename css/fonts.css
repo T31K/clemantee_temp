@@ -64,6 +64,10 @@ h6 {
   color: var(--brandYellow) !important;
 }
 
+.text-brandBeige{
+  color: var(--brandBeige) !important;
+}
+
 .text-brandBrown{
   color: var(--brandBrown) !important;
 }

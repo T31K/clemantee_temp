@@ -1,10 +1,9 @@
-/* Bebio - Kinder Garten HTML Template  */
-
-
 @media only screen and (max-width: 1139px){
 	.big-ipad-hidden{
 		display: none !important;
 	}
+
+
 
 	.sec-title h2{
 		font-size: 40px;
@@ -73,6 +72,23 @@
 	.main-menu .navbar-collapse > .navigation{
 		height: auto !important;
 	}
+	
+	.mobile_teacher{
+		display: none !important;
+	}
+
+	.desktop_teacher{
+		display: block !important;
+	}
+}
+
+
+.mobile_teacher{
+	display: block;
+}
+
+.desktop_teacher{
+	display: none;
 }
 
 @media only screen and (max-width: 1023px){

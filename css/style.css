@@ -90,6 +90,7 @@
 	--black: #000000;
 	--brandGreen: #3a6351;
 	--brandOrange: #e48257;
+	--brandBeige: #f9f5f0;
 	--brandYellow: #f2edd7;
 	--brandBrown: #393232;
 }
@@ -368,6 +369,10 @@ img{
 
 div.image img{
 	width: 20%;
+}
+
+.rounded{
+	border-radius: 20px;
 }
 
 .dropdown-toggle::after{
@@ -2281,7 +2286,7 @@ div.image img{
 	-ms-transition:all 3000ms ease;
 	-o-transition:all 3000ms ease;
 	transition:all 3000ms ease;
-	background-color: #ffae00;
+	background-color: var(--brandOrange);
 	border-radius: 7px;
 }
 
@@ -2292,7 +2297,8 @@ div.image img{
 	height: 17px;
 	width: 17px;
 	border-radius: 50%;
-	background-color: #ffae00;
+	background-color: var(--brandBrown);
+
 	content:"";
 }
 
@@ -2970,7 +2976,7 @@ div.image img{
 
 .services-tabs .tab-btns .tab-btn.active-btn{
 	color: var(--white);
-	background-color: #ff4880;
+	background-color: var(--brandOrange);
 }
 
 .services-tabs .image-column{
