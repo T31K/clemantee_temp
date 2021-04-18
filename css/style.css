@@ -366,6 +366,10 @@ img{
 	height:auto;
 }
 
+div.image img{
+	width: 20%;
+}
+
 .dropdown-toggle::after{
 	display: none;
 }
