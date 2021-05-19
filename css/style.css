@@ -2746,7 +2746,7 @@ div.image img{
 .program-block .image img{
 	display: block;
 	width: 100%;
-	height: auto;
+	height: 250px;
 	-webkit-transition: all 500ms ease;
 	-moz-transition: all 500ms ease;
 	-ms-transition: all 500ms ease;
