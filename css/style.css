@@ -111,6 +111,9 @@ p,.text{
 	margin: 0;
 }
 
+a {
+	color: var(--brandOrange);
+}
 ::-webkit-input-placeholder{color: inherit;}
 ::-moz-input-placeholder{color: inherit;}
 ::-ms-input-placeholder{color: inherit;}
@@ -459,7 +462,6 @@ div.image img{
 	width: 225px;
 	height: 50px;
 	margin: 0 auto;
-	background-image:url(../images/icons/curve.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	text-align:center;
@@ -3725,6 +3727,7 @@ div.image img{
 	width:100%;
 	max-width:600px;
 	padding:120px 120px 110px 15px;
+	height: 70vh;
 }
 
 .contact-form{
@@ -4626,7 +4629,7 @@ div.image img{
 .gallery-item .image-box .image img{
 	display: block;
 	width: 100%;
-	height: auto;
+	height: 250px;
 }
 
 .gallery-item .overlay-box{
@@ -4637,6 +4640,7 @@ div.image img{
 	width: 100%;
 	text-align: center;
 	background-color: var(--brandGreen);
+	opacity: 80%;
 	content: "";
 	-webkit-transition: -webkit-transform 0.4s ease;
 	transition: -webkit-transform 0.4s ease;
@@ -4912,12 +4916,18 @@ div.image img{
 ====================================================================
 
 ***/
+footer{
+	margin-top: 100px;
+
+}
 
 .main-footer{
 	position:relative;
-	background-color: #3a6351;
+	background-color: var(--lightGrey);
+	color: var(--darkGrey) !important;
 	padding: 2.5em;
 }
+
 
 .main-footer:before{
 	position: absolute;
@@ -4984,7 +4994,7 @@ div.image img{
 	position: relative;
 	display: block;
 	font-size: 15px;
-	color: #c7cae9;
+	color: var(--darkGrey);
 	font-weight: 400;
 	line-height:24px;
 	padding-left: 25px;
@@ -4997,12 +5007,12 @@ div.image img{
 	top: 0;
 	font-size: 14px;
 	line-height: 24px;
-	color: #ff4880;
+	color: var(--darkGrey);
 }
 
 .main-footer .contact-info li a{
 	position:static;
-	color: #c7cae9;
+	color: var(--darkGrey);
 	display: inline-block;
 	transition: all 300ms ease;
 }
@@ -5030,7 +5040,7 @@ div.image img{
 	position:relative;
 	font-size:16px;
 	line-height: 30px;
-	color:#c7cae9;
+	color: var(--darkGrey);
 	font-weight:400;
 	-webkit-transition:all 0.3s ease;
 	-moz-transition:all 0.3s ease;
@@ -5127,14 +5137,14 @@ div.image img{
 .main-footer .footer-bottom .copyright{
 	padding-top: 20px;
 	position:relative;
-	color:#c7cae9;
+	color: var(--darkGrey);
 	font-weight: 400;
 	font-size:16px;
 	line-height: 25px;
 }
 
 .main-footer .footer-bottom .copyright a{
-	color:#c7cae9;
+	color: var(--darkGrey);
 }
 
 .main-footer .footer-bottom .copyright a:hover{
